@@ -1,0 +1,292 @@
+.price_blocks {
+    width: 83.34%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    grid-template-areas:
+        "One Two Three"
+        "One Five Six"
+        "One Five Six"
+        "Four Seven Eight"
+        'link link link';
+
+}
+
+.TemplatePrice_block {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+    padding: 44px 44px 0;
+}
+
+.templatePrice__name {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #1B2232;
+}
+
+.templatePrice__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1B2232;
+    margin-top: 24px;
+}
+
+.TemplatePrice_block p {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    color: #1B2232;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.orangeText {
+    color: #EE6227;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    margin: 24px 0;
+}
+
+.footerClass {
+    margin-top: 44px;
+}
+
+.price_link {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.price_link button {
+    text-transform: uppercase;
+    color: #40BAFF;
+    border: 1px solid #40BAFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 3.3% 10.5%;
+    margin: 74px 0 44px;
+    background: transparent;
+    text-align: right;
+    cursor: pointer;
+}
+
+.text_Color-blue {
+    color: #40BAFF;
+}
+
+.TemplatePrice_block span {
+    color: #40BAFF;
+}
+#One {
+    grid-area: One;
+    max-height: 684px;
+}
+
+#Two {
+    grid-area: Two;
+    max-height: 333px;
+}
+
+#Three {
+    grid-area: Three;
+}
+
+#Four {
+    grid-area: Four;
+    position: relative;
+    top: -39%;
+}
+
+#Five {
+    grid-area: Five;
+    position: relative;
+    top: -19%;
+}
+
+#Six {
+    grid-area: Six;
+    max-height: 345px;
+}
+
+#Seven {
+    grid-area: Seven;
+    height: 446px;
+    position: relative;
+    top: -14%;
+}
+
+#Eight {
+    grid-area: Eight;
+    max-height: 353px;
+    position: relative;
+    top: -12%;
+}
+
+#price_Link {
+    grid-area: link;
+    margin-bottom: 74px;
+    cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+    .price_blocks {
+        width: 92.5%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .price_link {
+        justify-content: center;
+    }
+
+    .TemplatePrice_block {
+        padding: 44px 20px 0;
+    }
+
+    .price_link button {
+        width: 89%;
+        text-align: center;
+        padding: 6.7% 10.5%;
+    }
+
+    #One {
+        height: 630px;
+    }
+
+    #Two {
+        height: 280px;
+    }
+
+    #Four {
+       top: -46%;
+    }
+
+    #Five {
+        top: -29%;
+    }
+
+    #Seven {
+        height: 413px;
+        top: -23%;
+    }
+}
+
+@media (max-width: 768px) {
+    .price_link button {
+        margin: 20px 0;
+        font-size: 15px;
+    }
+
+    .templatePrice__name {
+        letter-spacing: 3px;
+    }
+
+    .TemplatePrice_block p {
+        letter-spacing: 0;
+    }
+
+    .TemplatePrice_block {
+        padding: 36px 20px 0;
+    }
+    .orangeText {
+        font-size: 16px;
+    }
+
+
+    #Four {
+        top: -23%;
+    }
+
+    #Five {
+        top: -22%;
+    }
+
+    #Seven {
+        top: -14%;
+    }
+
+    #Eight {
+        top: 0;
+    }
+}
+
+@media (max-width: 743px) {
+    .price_blocks {
+        gap: 2%;
+    }
+
+}
+@media (max-width: 600px) {
+        .price_blocks {
+            display: block;
+        }
+
+    .TemplatePrice_block {
+        /*padding: 0;*/
+        margin-bottom: 10%;
+    }
+
+    .TemplatePrice_block p {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .price_blocks {
+        display: block;
+    }
+
+    .price_link {
+        margin: 44px 0 30px;
+    }
+
+    .TemplatePrice_block p {
+        font-size: 14px !important;
+    }
+
+    #One {
+        height: 537px;
+        margin-bottom: 10%;
+    }
+
+    #Two {
+        height: 241px;
+        margin-bottom: 10%;
+    }
+
+    #Seven {
+        height: 303px;
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 375px) {
+    #One {
+        height: 563px;
+    }
+
+    #Seven {
+        height: 337px;
+    }
+}
+
+@media (max-width: 320px) {
+    #One {
+        height: 579px;
+    }
+
+    #Seven {
+        height: 355px;
+    }
+}

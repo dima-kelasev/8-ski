@@ -1,0 +1,22 @@
+.notFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+}
+
+.notFound_title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+
+.notFound_img {
+    width: 50%;
+    margin: 5%;
+}
+
+.notFound_Link {
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}

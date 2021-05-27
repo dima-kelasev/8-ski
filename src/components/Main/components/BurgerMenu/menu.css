@@ -1,0 +1,251 @@
+.menu {
+    display: none;
+}
+
+.mainBurgerMenu {
+    position: absolute;
+    left: 10%;
+    top: 44px;
+}
+
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transform: translateX(-100%);
+        transition: .5s linear;
+        display: block;
+    }
+
+    .menuActive {
+        transform: translateX(0);
+        transition: .5s linear;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 63%;
+        display: block;
+    }
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        background: #fff;
+        font-weight: normal;
+        height: 100vh;
+    }
+
+    .MenuMain {
+        height: 100vh !important;
+    }
+
+    .burgerMenuLink {
+        color: #ffffff;
+        text-decoration: none;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 21px;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 10px;
+    }
+
+    .burgerMenusubtitle {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 50px 0;
+    }
+
+    .burgerMenu {
+        display: flex;
+        width: 86.5%;
+        margin: 37px auto 0;
+        justify-content: space-between;
+    }
+
+    .mobileView {
+        display: flex;
+        width: 86.5%;
+        margin: 37px auto 0;
+        align-items: center;
+    }
+
+    .burger_Logo {
+        width: 43.4%;
+        position: relative;
+        z-index: 3;
+        height: 16px;
+    }
+    /*	burger menu*/
+    .burger {
+        position: relative;
+        z-index: 3;
+        width: 20%;
+        height: 24px;
+        cursor: pointer;
+    }
+    .burger span {
+        height: 3px;
+        width: 29px;
+        background: #fff;
+        position: absolute;
+        transition: 1s;
+        top: 35%;
+    }
+    .burger::before,
+    .burger::after {
+        content: '';
+        position: absolute;
+        background: #fff;
+        width: 40px;
+        height: 3px;
+        transition: 1s;
+        z-index: 4;
+    }
+    .burger::before {
+        top: 0;
+        left: 0;
+        width: 29px;
+    }
+    .burger::after {
+        bottom: 6px;
+        left: 0;
+        width: 29px;
+    }
+    .burger.active span {
+        height: 3px;
+        width: 17px;
+        background: #fff;
+        position: absolute;
+        transition: 1s;
+    }
+    .burger.active::before,
+    .burger.active::after {
+        content: '';
+        position: absolute;
+        background: #000;
+        height: 3px;
+        transition: 1s;
+        z-index: 4;
+    }
+
+    .burger.active:before {
+        transform: rotate(45deg);
+        top: 0;
+        left: 0;
+        width: 32px;
+        background: #000;
+        transition: 1s;
+    }
+    .burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 21px;
+        width: 32px;
+        left: 0;
+        background: #000;
+        transition: 1s;
+    }
+    .burger.active span {
+        transform: translateX(45px) scale(0);
+        transition: 1s;
+    }
+
+    .Menu_Link {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        letter-spacing: 0.1em;
+        color: #1B2232;
+        text-decoration: none;
+    }
+
+    .menuNav {
+        margin-right: 5%;
+    }
+
+    .menuNav li {
+        margin-bottom: 18px;
+        list-style: none;
+    }
+
+    .dropMenu_footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20%;
+    }
+
+    .liMobile {
+        display: none;
+    }
+
+
+@media  (max-width: 1280px) {
+    .mainBurgerMenu {
+        left: 0;
+        margin-left: 35px;
+    }
+
+}
+
+@media  (max-width: 425px) {
+    .burger {
+        display: flex;
+        width: 350px;
+    }
+
+    .liMobile {
+        display: block;
+
+    }
+
+    .liMobile a {
+        color: #000;
+        text-decoration: none;
+        font-size: 17px;
+        line-height: 21px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0.1em;
+    }
+    .mobileMainActive {
+        display: block;
+        position: absolute;
+        right: 0;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 4px;
+        color: #000;
+    }
+}
+
+@media  (max-width: 375px) {
+    .burger {
+        width: 320px;
+    }
+}
+
+@media  (max-width: 320px) {
+    .burger {
+        width: 280px;
+    }
+
+    .mainTitle {
+        font-size: 96px;
+    }
+
+    .mainSubtitle {
+        font-size: 22px;
+    }
+
+    .dropMenu_footer {
+        width: 292px;
+    }
+
+    .mainBurgerMenu {
+        margin-left: 20px;
+    }
+}

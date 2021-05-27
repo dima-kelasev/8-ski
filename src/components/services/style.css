@@ -1,0 +1,120 @@
+.Contact {
+    width: 85% !important;
+    margin: 0 auto !important;
+}
+
+.contact__text-blue {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #40BAFF;
+}
+
+.contact__wrapper {
+    display: flex;
+}
+
+.contact__orange-text {
+    color: #EE6227 !important;
+}
+
+.contact__text-list {
+    list-style: none;
+    margin: 16px 44px 0 0;
+}
+
+.contact__text-list li {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1B2232;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+.contact__grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px 28px;
+    width: 100%;
+    margin-top: 74px;
+}
+
+.contact__grid-item {
+    width: 100%;
+    position: relative;
+}
+
+.grid_img {
+    width: 100%;
+}
+
+.grid_text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #fff;
+    position: absolute;
+    bottom: 7%;
+    justify-content: space-between;
+    width: 83%;
+    margin: 0 24px;
+}
+
+.grid_btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background: transparent;
+    background-image: url("../../images/cards/arrow.svg");
+     background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.contact_block-link {
+    display: flex;
+    justify-content: center;
+    margin: 74px 0 100px;
+}
+
+.Link_contact {
+    text-align: center;
+    color: #40BAFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+.contact_block-text {
+    position: relative;
+    z-index: -1;
+}
+
+@media (max-width: 1280px) {
+    .Contact {
+        width: 92.5% !important;
+    }
+    .header {
+        width: 92.5% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact__grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 425px) {
+    .contact__grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,130 @@
+.gallery__grid {
+    width: 83.34%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+            'one two three'
+            'four five three'
+            'seven  eight six'
+            'link link link';
+    grid-auto-flow: dense;
+    gap: 44px 40px;
+}
+
+.gallery__grid img {
+    width: 100%;
+    position: relative;
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#four {
+    grid-area: four;
+}
+
+#five {
+    grid-area: five;
+    top: -17%;
+}
+
+#six {
+    grid-area: six;
+    position: relative;
+    top: -58%;
+}
+
+#seven {
+    grid-area: seven;
+    top: -5%;
+}
+
+#eight  {
+    grid-area: eight;
+    top: -10%;
+}
+.gallery_block-link {
+    grid-area: link;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.gallery_btn {
+    border: 1px solid #40BAFF;
+    background: transparent;
+    color: #40BAFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 2.36% 5.8%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    cursor: pointer;;
+}
+
+.moreCard {
+    display: none;
+}
+
+.moreCardActive {
+    width: 83.34%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+            'one two three'
+            'four five three'
+            'seven  eight six'
+            'link link link';
+    grid-auto-flow: dense;
+    gap: 44px 40px;
+}
+
+.moreCardActive img {
+    width: 100%;
+    position: relative;
+}
+
+@media (max-width: 1280px) {
+    .gallery__grid {
+        width: 92.5%;
+    }
+
+    .leftSection {
+        margin-left: 3.8% !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .gallery__grid {
+       display: block;
+    }
+
+    .gallery__grid img {
+        margin-bottom: 30px;
+    }
+
+    .gallery_btn {
+        width: 73%;
+        padding: 6.9% 5.8%;
+    }
+
+    .textNumber {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+    }
+}

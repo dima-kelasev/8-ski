@@ -1,0 +1,104 @@
+.Main {
+    background: url("../../images/Mask Group.svg") no-repeat center;
+    background-size: cover;
+    width: 64.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.mainTitle {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 94%;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.mainSubtitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    margin-bottom: 26px;
+}
+
+.main_star {
+    margin-right: 14px;
+}
+
+.contact__color-blue {
+    color: #40BAFF;
+}
+
+.contact__title {
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    margin-bottom: 16px !important;
+    display: flex;
+}
+
+.contact__subtitle {
+    margin: 0 !important;
+}
+
+.contact__info {
+    margin: 0 0 44px 0;
+}
+
+.contact__img {
+    margin-right: 25px;
+}
+
+.rightSection_Li-margin {
+    margin-bottom: 10px;
+    font-size: 14px !important;
+}
+
+.MainPage {
+    display: flex;
+}
+
+@media (max-width: 1280px) {
+    .Main {
+        justify-content: left;
+    }
+
+    .mainWrap {
+        margin-left: 35px;
+    }
+    .mainTitle {
+        font-size: 134px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .MainPage {
+        position: relative;
+    }
+    .Main {
+        min-height: 88vh;
+    }
+    .mainTitle {
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 639px) {
+    .Main {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .Main {
+        min-height: 100vh;
+        width: 100%;
+    }
+}

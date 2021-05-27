@@ -1,0 +1,46 @@
+.footer_list {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 4.32% 0;
+}
+
+.footer_list li {
+    list-style-type: none;
+    color: #000;
+}
+
+.footer_link {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer_icon {
+    margin-right: 16px;
+}
+
+.footer {
+    width: 70%;
+}
+
+@media (max-width: 1024px) {
+    .footer_list {
+        width: 83%;
+    }
+}
+
+@media (max-width: 639px) {
+    .footer {
+        width: 100%;
+    }
+
+    .footer_list {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        display: none;
+    }
+}

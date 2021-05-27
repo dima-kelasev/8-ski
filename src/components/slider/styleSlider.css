@@ -1,0 +1,150 @@
+.slick-slider {
+    width: 36%;
+    /* z-index: -1; */
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.navSlider {
+    position: absolute;
+    right: 7%;
+    bottom: -8%;
+    z-index: -1;
+    width: 19.7%;
+}
+
+.slidCard h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;letter-spacing: 0.1em;
+    color: #1B2232;
+    margin-bottom: 10px;
+}
+
+.slidCard a {
+    text-decoration: none;
+    color: #40BAFF;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.slidCard a:after {
+    content: '⟶';
+    color: #40BAFF;
+    margin-left: 10px;
+}
+
+.slidCard p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1B2232;
+    margin-bottom: 20px;
+}
+
+.cardNav {
+    padding: 18px 0 0 33px;
+}
+
+.navSlider_scrollBar {
+    display: flex;
+    align-items: center;
+}
+
+
+.inputSlider[type='range'] {
+    width: 280px;
+    height: 2px;
+    -webkit-appearance: none;
+    background: #E5ECF3;
+}
+
+.inputSlider[type='range']::-webkit-slider-thumb {
+    width: 35px;
+    -webkit-appearance: none;
+    height: 2px;
+    cursor: ew-resize;
+    background: #40BAFF;
+    /* box-shadow: -80px 0 0 80px #43e5f7; */
+}
+
+
+
+.slick-prev, .slick-next {
+    top: 107%;
+    background-position: center;
+    background-size: cover;
+    z-index: 5;
+    width: 16px;
+    height: 24px;
+}
+
+.slick-prev:hover,
+.slick-prev:focus {
+    outline: none;
+    background-image: url("../../images/slide/leftArrow.svg");
+    transition: .2s linear;
+    opacity: .7;
+}
+
+.slick-next:hover,
+.slick-next:focus {
+    background-image: url("../../images/slide/rightArrow.svg");
+    transition: .2s linear;
+    opacity: .7;
+}
+
+.slick-prev {
+    left: 10%;
+    background-image: url("../../images/slide/leftArrow.svg");
+
+}
+
+.slick-prev:before {
+    content: '';
+
+}
+
+.slick-next {
+    right: 10%;
+    background-image: url("../../images/slide/rightArrow.svg");
+    background-size: cover;
+}
+
+.slick-next:before {
+    content: '';
+}
+
+@media  (max-width: 1280px) {
+    .cardNav {
+        padding: 6px 0 0 33px;
+        box-sizing: border-box;
+    }
+    .slidCard p {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .slick-slider {
+        width: 42%;
+    }
+
+    .navSlider {
+        right: 10%;
+        bottom: -8.5%;
+    }
+}
+
+@media (max-width: 639px) {
+    .slick-slider {
+        display: none;
+    }
+
+    .navSlider {
+        display: none;
+    }
+}

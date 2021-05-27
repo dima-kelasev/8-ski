@@ -1,0 +1,184 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 84.34%;
+    margin: 44px auto 74px
+}
+
+.header img {
+    margin-right: 12px;
+}
+
+.wrapSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionPrice {
+    width: 53.25%;
+    padding: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgb(0 0 0 / 10%);
+    border-radius: 1px;
+    position: absolute;
+    top: 11%;
+    z-index: 1;
+    right: 16%;
+}
+
+.sectionPrice h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    margin-bottom: 24px;
+}
+
+.rightSection_Title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 24px 0 6px;
+}
+
+.rightSection_footer {
+    margin-top: 44px;
+}
+
+.rightSection_Li  {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.rightSection_img-block {
+    width: 100%;
+}
+
+.rightSection img {
+    position: relative;
+    margin-top: 38%;
+    width: 100%;
+}
+.rightSection {
+    /*display: flex;*/
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 50%;
+}
+
+.sectionSubtitle {
+    margin: 16px 0 53px;
+    width: 76%;
+}
+
+.rightSection_Orange {
+    color: darkorange;
+}
+
+
+
+.sectionSubtitle p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1B2232;
+    margin-bottom: 3.82%;
+}
+
+.bold_title {
+    font-weight: 500 !important;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1B2232;
+}
+
+.sectionSubtitle span {
+    color: #EE6227;
+}
+
+.linkSection {
+    color: #40BAFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+.leftSection {
+    margin-left: 7.8%;
+    width: 50%;
+}
+
+.leftSection_title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #1B2232;
+}
+
+.leftSection h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    line-height: 94%;
+    color: #1B2232;
+    margin: 16px 0 44px;
+}
+
+.leftSection h5 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #1B2232;
+}
+
+.leftSection_contact {
+    width: 35% !important;
+}
+
+.rightSection_contact {
+    width: 56% !important;
+}
+
+@media (max-width: 1280px) {
+    .leftSection_contact {
+        width: 40% !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .leftSection_contact {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapSection {
+        display: block !important;
+    }
+
+    .leftSection_contact {
+        width: 95% !important;
+    }
+
+    .rightSection_contact {
+        width: 100% !important;
+    }
+
+    .mobileMap {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .contact__title {
+        font-size: 20px !important;
+    }
+}
