@@ -12,7 +12,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './styleSlider.css';
 import {Link} from "react-router-dom";
-import {sliderData} from '../../data/sliderData'
 
 export default class SlickGoTo extends React.Component {
   state = {
@@ -26,7 +25,7 @@ export default class SlickGoTo extends React.Component {
       dots: false,
       arrows: true,
       fade: false,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 5000,
       className: 'slidCard',
       slidesToShow: 1,

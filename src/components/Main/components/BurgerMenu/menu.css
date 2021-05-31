@@ -20,7 +20,7 @@
 
     .menuActive {
         transform: translateX(0);
-        transition: .5s linear;
+        transition: .5s linear !important;
         position: fixed;
         z-index: 2;
         top: 0;
@@ -211,14 +211,15 @@
         letter-spacing: 0.1em;
     }
     .mobileMainActive {
-        display: block;
+        display: block !important;
         position: absolute;
         right: 0;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 17px;
         line-height: 22px;
         letter-spacing: 4px;
         color: #000;
+        transition: .5s ease-in-out;
     }
 }
 

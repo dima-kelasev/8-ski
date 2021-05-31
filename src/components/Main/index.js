@@ -12,7 +12,8 @@ const MainPage = () => {
   )
 
   return (
-    <> <BurgerMenu/>
+    <>
+      <BurgerMenu/>
        <div className='MainPage'>
          <div className='Main'>
            <div className='mainWrap'>
