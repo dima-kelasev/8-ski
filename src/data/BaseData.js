@@ -31,7 +31,7 @@ export const Data = [
     li3:'• Взрослые (с 10 лет): <span></span>250р/час; <span>700р</span>/день',
     li4:'• Дети (с 5 до 10 лет): <span></span>150р/час; <span>450р</span>/день',
     classFooter: 'rightSection_footer',
-    li5: '• Беседка малая <span>1000р</span>',
+    li5: '• Беседка малая <span>1500р</span>',
     li6: '• Беседка большая <span>2000р</span> ',
     li7:'• Шатер <span>500р</span>',
     src: imgOne
@@ -72,8 +72,6 @@ export const  DataRussianSauna = [{
   classOrange: 'rightSection_Orange',
   OrangeText: 'При посещении бани более чем на 5 часов, парение в Сибирском чане в подарок!',
   li: '• Русская баня <span>1800р</span>/час',
-  li2: '• Веники (дубовый, березовый, эвкалиптовый) <span>200-250р</span>',
-  li3: '• Самовар на дровах <span>250р</span>',
   li4: '• Сибирский чан <span>1500р</span>',
 
   src: RusSauna
@@ -108,7 +106,7 @@ export const DataHamam = [{
 
   titleSectionPrice: 'Хамам',
   li: '• цена рассчитана на 10 человек:\n' +
-    '  <span>1200р</span>/час',
+    '  <span>1600р</span>/час',
   li2: '• Если количество человек превышает вместимость зала, то дополнительное место оплачивается из расчета <span>100р</span>/час',
 
   src: Hamam
