@@ -25,7 +25,7 @@ export default class SlickGoTo extends React.Component {
       dots: false,
       arrows: true,
       fade: false,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 5000,
       className: 'slidCard',
       slidesToShow: 1,

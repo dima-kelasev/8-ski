@@ -13,7 +13,7 @@ const Template = (props) => {
     arrows: true,
     fade: false,
     autoplay: false,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 2000,
     className: 'slidCardItem',
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -65,7 +65,7 @@ const Template = (props) => {
                     <p className='rightSection_Li' dangerouslySetInnerHTML={{ __html: props.li7 }}></p>
                   </div>
             </div>
-                {/*<img className='rightSection_picture' src={props.src} alt="" id={props.id}/>*/}
+
             <Slider  {...settings}>
               <div>
                 <img src={props.slide1} alt=""/>
