@@ -4,8 +4,21 @@ import icon from '../../images/IconPhone.svg'
 import BurgerMenuBlack from "./components/BurgerMenuBlack";
 import {Link} from "react-router-dom";
 import Header from "../header/header";
+import Slider from "react-slick";
+
 
 const Template = (props) => {
+  const settings = {
+    dots: true,
+    arrows: true,
+    fade: false,
+    autoplay: false,
+    autoplaySpeed: 5000,
+    className: 'slidCardItem',
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+  };
   return(
     <>
       <section className=''>
@@ -32,8 +45,8 @@ const Template = (props) => {
             <Link className='linkSection' to='/'>Вернуться на главную</Link>
           </div>
 
-          <div className='rightSection'>
-            <div className='sectionPrice'>
+          <div className={props.rightSection}>
+            <div className={props.classNameSection}>
               <h3>{props.titleSectionPrice}</h3>
               <p className={props.classOrange}>{props.OrangeText}</p>
               <p className={props.class}>{props.titleList}</p>
@@ -52,7 +65,32 @@ const Template = (props) => {
                     <p className='rightSection_Li' dangerouslySetInnerHTML={{ __html: props.li7 }}></p>
                   </div>
             </div>
-                <img className='rightSection_picture' src={props.src} alt="" id={props.id}/>
+                {/*<img className='rightSection_picture' src={props.src} alt="" id={props.id}/>*/}
+            <Slider  {...settings}>
+              <div>
+                <img src={props.slide1} alt=""/>
+              </div>
+
+              <div>
+                <img src={props.slide2} alt=""/>
+              </div>
+
+              <div>
+                <img src={props.slide3} alt=""/>
+              </div>
+
+              <div>
+                <img src={props.slide4} alt=""/>
+              </div>
+
+              <div>
+                <img src={props.slide5} alt=""/>
+              </div>
+
+            </Slider>
+            <div>
+
+            </div>
             <Link className='linkSection_mobileView' to='/'>Вернуться на главную</Link>
 
           </div>

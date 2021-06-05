@@ -3,7 +3,7 @@ import Template from "../template/Template";
 import {Data} from '../../data/BaseData'
 
 
-const  WaterPool = () => {
+const WaterPool = () => {
   const PagePool = Data.map((item) =>
     <Template
       id={item.id}
@@ -19,7 +19,11 @@ const  WaterPool = () => {
       titleLi8={item.titleLi8}
       titleLi9={item.titleLi9}
       titleLi10={item.titleLi10}
+      rightSection={item.rightSection}
 
+
+
+      classNameSection={item.classNameSection}
       titleSectionPrice={item.titleSectionPrice}
       class={item.class}
       titleList={item.titleList}
@@ -35,7 +39,15 @@ const  WaterPool = () => {
       li7={item.li7}
       src={item.src}
 
+
+      slide1={item.slide1}
+      slide2={item.slide2}
+      slide3={item.slide3}
+      slide4={item.slide4}
+      slide5={item.slide5}
+
     />
+
   )
 
   return (

@@ -7,9 +7,12 @@ const NotFound = () => {
   return (
     <>
       <div className='notFound'>
-        <h3 className='notFound_title'>Упс, страница не найдена</h3>
         <img className='notFound_img' src={notFound} alt=""/>
-        <Link className='notFound_Link' to='/'> Давай обратно</Link>
+        <div className='notFound_block'>
+          <p className='notFound_title'>Ууупс... Произошла ошибка, попробуйте обновить страницу</p>
+          <Link className='notFound_Link' to='/'> <button>Обновить</button></Link>
+        </div>
+
       </div>
 
     </>

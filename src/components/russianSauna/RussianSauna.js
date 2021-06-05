@@ -13,7 +13,9 @@ const RussianSauna = () => {
       titleLi3={item.titleLi3}
       titleLi6={item.titleLi6}
       titleLi5={item.titleLi5}
+      rightSection={item.rightSection}
 
+      classNameSection={item.classNameSection}
       titleSectionPrice={item.titleSectionPrice}
       classOrange={item.classOrange}
       OrangeText={item.OrangeText}
@@ -24,7 +26,11 @@ const RussianSauna = () => {
       li3={item.li3}
       li4={item.li4}
 
-      src={item.src}
+      slide1={item.slide1}
+      slide2={item.slide2}
+      slide3={item.slide3}
+      slide4={item.slide4}
+      slide5={item.slide5}
 
     />
   )

@@ -28,9 +28,23 @@
     box-shadow: 0px 4px 25px rgb(0 0 0 / 10%);
     border-radius: 1px;
     position: absolute;
-    top: 11%;
+    top: 14%;
     z-index: 1;
     right: 16%;
+    /*display: none;*/
+}
+
+.sectionPriceWaterpool {
+    width: 53.25%;
+    padding: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgb(0 0 0 / 10%);
+    border-radius: 1px;
+    position: absolute;
+    top: -1%;
+    z-index: 1;
+    right: 16%;
+    /*display: none;*/
 }
 
 .sectionPrice h3 {
@@ -73,9 +87,16 @@
 }
 .rightSection {
     /*display: flex;*/
+    align-items: flex-end;
     flex-direction: column;
-    align-items: center;
-    position: relative;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.rightSectionWaterpool {
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 50%;
 }
 
@@ -182,7 +203,6 @@
 
     .rightSection img {
         height: 600px;
-        /*margin: 0;*/
     }
 
     .sectionPrice h3 {
@@ -200,6 +220,7 @@
     .linkSection {
         display: none;
     }
+
     .linkSection_mobileView {
         display: block;
         color: #40BAFF;
@@ -223,6 +244,12 @@
         width: 100%;
         margin-top: 15%;
     }
+
+    .rightSectionWaterpool {
+        width: 100%;
+        position: relative;
+        margin-top: 50%;
+    }
     .leftSection {
         width: 95%;
     }
@@ -230,9 +257,23 @@
     .rightSection img {
         margin: 0;
     }
+
+    .sectionPriceWaterpool {
+            top: -40%;
+    }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 563px) {
+    .slidCardItem {
+        margin-top: 58%;
+    }
+
+    .sectionPrice {
+        top: -40%
+    }
+}
+
+@media (max-width: 481px) {
     .isNotActive {
         display: none;
     }
@@ -262,7 +303,7 @@
 
     .sectionPrice {
         right: 10%;
-        top: -4%;
+        top: -32%;
     }
 
     .rightSection img {
@@ -273,21 +314,49 @@
     #waterpool {
         margin-top: 70%;
     }
+
+    .rightSectionWaterpool {
+        margin-top: 115%;
+    }
+
+    .sectionPriceWaterpool {
+        top: -95%;
+        width: 70.25%;
+        padding: 30px;
+        right: 7%;
+    }
+
+
 }
 
 @media (max-width: 375px) {
     .leftSection h2 {
         font-size: 62px;
     }
+
+    .rightSectionWaterpool {
+        margin-top: 148%;
+    }
+
+    .sectionPriceWaterpool {
+        top: -118%;
+        right: 5%;
+    }
 }
 
 @media (max-width: 320px) {
     .sectionPrice {
-        top: -10%;
+        top: -40%;
         margin-top: 44px;
     }
     .mobileMain {
         font-size: 16px;
+    }
+
+    .sectionPriceWaterpool {
+        width: 69.25%;
+        padding: 20px;
+        right: 8%;
     }
 
 

@@ -1,11 +1,11 @@
-import WaterIcon from '../images/cards/Cardwaterpool.svg';
-import RoomsIcon from '../images/cards/Cardrooms.png';
-import RusSauna from '../images/cards/CardRussinsauna.svg';
-import FinSaina from '../images/cards/CardFinSauna.svg';
-import Hamam from '../images/cards/CardHamam.svg';
-import Hamam2 from '../images/cards/CardHamam2.svg';
-import Sauna from '../images/cards/CardSauna.svg';
-import Sauna2 from '../images/cards/CardSauna2.svg'
+import WaterIcon from '../images/cards/Cardwaterpool.jpg';
+import RoomsIcon from '../images/cards/Cardrooms.jpg';
+import RusSauna from '../images/cards/CardRussinsauna.jpg';
+import FinSaina from '../images/cards/CardFinSauna.jpg';
+import Hamam from '../images/cards/CardHamam.jpg';
+import Hamam2 from '../images/cards/CardHamam2.jpg';
+import Sauna from '../images/cards/CardSauna.jpg';
+import Sauna2 from '../images/cards/CardSauna2.jpg'
 
 export const CardData = [
   {
