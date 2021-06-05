@@ -12,7 +12,7 @@ const MainPage = () => {
   )
 
   return (
-    <>
+    <div>
       <BurgerMenu/>
        <div className='MainPage'>
          <div className='Main'>
@@ -27,7 +27,7 @@ const MainPage = () => {
        </div>
       <Footer/>
 
-    </>
+    </div>
   )
 }
 

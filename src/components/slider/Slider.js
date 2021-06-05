@@ -25,7 +25,7 @@ export default class SlickGoTo extends React.Component {
       dots: false,
       arrows: true,
       fade: false,
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 5000,
       className: 'slidCard',
       slidesToShow: 1,
@@ -39,7 +39,7 @@ export default class SlickGoTo extends React.Component {
     return (
       <>
         <Slider ref={slider => (this.slider = slider)} {...settings}>
-          <div>
+          <div className='slider_box'>
             <img src={waterImg} alt=""/>
             <div className='cardNav'>
               <h3>Летний бассейн</h3>
@@ -49,7 +49,7 @@ export default class SlickGoTo extends React.Component {
             </div>
 
           </div>
-          <div>
+          <div className='slider_box'>
             <img src={roomsImg} alt=""/>
             <div className='cardNav'>
               <h3>Гостиничные номера</h3>
@@ -57,7 +57,7 @@ export default class SlickGoTo extends React.Component {
               <Link to='/rooms'>Смотреть подробнее</Link>
             </div>
           </div>
-          <div>
+          <div className='slider_box'>
             <img src={RusSauna} alt=""/>
             <div className='cardNav'>
               <h3>Русская баня на дровах</h3>
@@ -66,7 +66,7 @@ export default class SlickGoTo extends React.Component {
               <Link to='/russianSauna'>Смотреть подробнее</Link>
             </div>
           </div>
-          <div>
+          <div className='slider_box'>
             <img src={finroom} alt=""/>
             <div className='cardNav'>
               <h3>Номер с финской парной и джакузи</h3>
@@ -75,7 +75,7 @@ export default class SlickGoTo extends React.Component {
               <Link to='/finnishRoom'>Смотреть подробнее</Link>
             </div>
           </div>
-          <div>
+          <div className='slider_box'>
             <img src={hamam} alt=""/>
             <div className='cardNav'>
               <h3>Хамам</h3>
@@ -84,7 +84,7 @@ export default class SlickGoTo extends React.Component {
               <Link to='/hamam'>Смотреть подробнее</Link>
             </div>
           </div>
-          <div>
+          <div className='slider_box'>
             <img src={hamam2} alt=""/>
             <div className='cardNav'>
               <h3>Хамам2</h3>
@@ -93,7 +93,7 @@ export default class SlickGoTo extends React.Component {
               <Link to='/hamam2'>Смотреть подробнее</Link>
             </div>
           </div>
-          <div>
+          <div className='slider_box'>
             <img src={sauna} alt=""/>
             <div className='cardNav'>
               <h3>Сауна 1</h3>
@@ -102,7 +102,7 @@ export default class SlickGoTo extends React.Component {
               <Link to='/sauna'>Смотреть подробнее</Link>
             </div>
           </div>
-          <div>
+          <div className='slider_box'>
             <img src={sauna2} alt=""/>
             <div className='cardNav'>
               <h3>Сауна 2</h3>

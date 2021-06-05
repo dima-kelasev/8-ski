@@ -1,5 +1,5 @@
 .slick-slider {
-    width: 36%;
+    width: 29%;
     /* z-index: -1; */
 }
 
@@ -10,9 +10,9 @@
 .navSlider {
     position: absolute;
     right: 7%;
-    bottom: -8%;
+    bottom: 8%;
     z-index: -1;
-    width: 19.7%;
+    width: 15.7%;
 }
 
 .slidCard h3 {
@@ -133,6 +133,7 @@
 .slick-prev {
     left: 10%;
     background-image: url("../../images/slide/leftArrow.svg");
+    z-index: 1;
 
 }
 
@@ -145,6 +146,7 @@
     right: 10%;
     background-image: url("../../images/slide/rightArrow.svg");
     background-size: cover;
+    z-index: 1;
 }
 
 .slick-next:before {

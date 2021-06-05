@@ -1,11 +1,11 @@
 .Main {
     background: url("../../images/Mask Group.svg") no-repeat center;
     background-size: cover;
-    width: 64.6%;
+    width: 71.6%;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 85vh;
 }
 
 .mainTitle {

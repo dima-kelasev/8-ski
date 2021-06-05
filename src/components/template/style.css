@@ -302,6 +302,7 @@
 
     .sectionSubtitle {
         width: 100%;
+        margin-bottom: 50%;
     }
 
     .contact__wrapper {
@@ -359,9 +360,17 @@
         top: -74%;
         right: 5%;
     }
+
+    .sectionSubtitle {
+        margin-bottom: 58%;
+    }
 }
 
 @media (max-width: 320px) {
+
+    .sectionSubtitle {
+        margin-bottom: 68%;
+    }
 
     .sectionPrice {
         top: -40%;
