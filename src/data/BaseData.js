@@ -67,7 +67,7 @@ export const Data = [
     classFooter: 'rightSection_footer',
     li5: '• Беседка малая <span>1500р</span>',
     li6: '• Беседка большая <span>2000р</span> ',
-    li7:'• Шатер <span>500р</span>',
+    li7:'• Шатер <span>1000р</span>',
     slide1: pool1,
     slide2: pool2,
     slide3: pool3,
