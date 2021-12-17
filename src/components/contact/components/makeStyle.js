@@ -1,5 +1,5 @@
 export default [
   {
-    disableDefaultUI: false
-  }
-]
+    disableDefaultUI: false,
+  },
+];
