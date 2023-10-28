@@ -94,7 +94,10 @@ export const DataRooms = [
     classNameSection: "sectionPrice",
     titleSectionPrice: "Гостиничные номера",
 
-    li: "•<span>2200р</span> /сутки\n",
+    li: "• <span>2500р</span> /сутки\n",
+    li2: "• <span>300р</span> /Доп завтрак\n",
+    li3: "• <span>1100р</span> /Номер на 2 часа\n",
+    li4: "• <span>550р</span> /Продление номера\n",
     classFooter: "rightSection_footer",
     slide1: rooms3,
     slide2: rooms4,
@@ -125,8 +128,9 @@ export const DataRussianSauna = [
     classOrange: "rightSection_Orange",
     OrangeText:
       "При посещении бани более чем на 5 часов, парение в Сибирском чане в подарок!",
-    li: "• Русская баня <span>2000р</span>/час",
-    li4: "• Сибирский чан <span>1500р</span>",
+    li: "• Русская баня <span>2400р</span>/ час",
+    li2: "• Сибирский чан <span>1500р</span>",
+    li4: "• Домик - <span>3800</span>/ сутки",
 
     slide1: RusSauna2,
     slide2: RusSauna1,
@@ -184,7 +188,7 @@ export const DataHamam = [
 
     classNameSection: "sectionPrice",
     titleSectionPrice: "Хамам",
-    li: "• цена рассчитана на 10 человек:\n" + "  <span>1900р</span>/час",
+    li: "• цена рассчитана на 10 человек:\n" + "  <span>2400р</span>/час",
     li2: "• Если количество человек превышает вместимость зала, то дополнительное место оплачивается из расчета <span>100р</span>/час",
 
     slide1: Hamam1,
@@ -214,8 +218,9 @@ export const DataHamamTwo = [
 
     classNameSection: "sectionPrice",
     titleSectionPrice: "Хамам 2",
-    li: "• <span>2500р</span>/час будние дни",
-    li2: "• <span>3000р</span>/час выходные и праздничные дни",
+    li: "• <span>2700р</span>/час будние дни",
+    li2: "• <span>3200р</span>/час выходные и праздничные дни",
+
 
     slide1: twoHamam1,
     slide2: twoHamam2,
@@ -243,7 +248,7 @@ export const DataSauna = [
 
     classNameSection: "sectionPrice",
     titleSectionPrice: "Сауна №1",
-    li: "• цена рассчитана на 10 человек:\n" + "  <span>1500р</span>/час",
+    li: "• цена рассчитана на 10 человек:\n" + "  <span>1800р</span>/час",
     li2: "• Если количество человек превышает вместимость зала, то дополнительное место оплачивается из расчета <span>100р</span>/час",
 
     slide1: Sauna1,
@@ -267,8 +272,9 @@ export const DataSaunaTwo = [
 
     classNameSection: "sectionPrice",
     titleSectionPrice: "Сауна №2",
-    li: "• цена рассчитана на 10 человек:\n" + "  <span>1700р</span>/час",
+    li: "• цена рассчитана на 10 человек:\n" + "  <span>2000р</span>/час",
     li2: "• Если количество человек превышает вместимость зала, то дополнительное место оплачивается из расчета <span>100р</span>/час",
+    li3: "• Бильярд  <span>200р</span>/ час",
 
     slide1: SaunaTwo1,
     slide2: SaunaTwo2,

@@ -19,6 +19,9 @@ const Rooms = () => {
       classNameSection={item.classNameSection}
       titleSectionPrice={item.titleSectionPrice}
       li={item.li}
+      li2={item.li2}
+      li3={item.li3}
+      li4={item.li4}
 
       classFooter={item.classFooter}
       slide1={item.slide1}

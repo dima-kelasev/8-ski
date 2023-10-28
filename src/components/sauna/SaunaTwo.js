@@ -15,6 +15,7 @@ const SaunaTwo = () => {
       titleSectionPrice={item.titleSectionPrice}
       li={item.li}
       li2={item.li2}
+      li3={item.li3}
 
       slide1={item.slide1}
       slide2={item.slide2}
