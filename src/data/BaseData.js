@@ -96,9 +96,8 @@ export const DataRooms = [
     titleSectionPrice: "Гостиничные номера",
 
     li: "• <span>2500р</span> /сутки\n",
-    li2: "• <span>300р</span> /Доп завтрак\n",
-    li3: "• <span>1100р</span> /Номер на 2 часа\n",
-    li4: "• <span>550р</span> /Продление номера\n",
+    li2: "• <span>3800р</span> /Домик на летней территории\n",
+  
     classFooter: "rightSection_footer",
     slide1: rooms3,
     slide2: rooms4,
@@ -131,7 +130,6 @@ export const DataRussianSauna = [
       "При посещении бани более чем на 5 часов, парение в Сибирском чане в подарок!",
     li: "• Русская баня <span>2400р</span>/ час",
     li2: "• Сибирский чан <span>1500р</span>",
-    li4: "• Домик - <span>3800</span>/ сутки",
 
     slide1: RusSauna2,
     slide2: RusSauna1,
@@ -157,7 +155,7 @@ export const FinshSauna = [
 
     classNameSection: "sectionPrice",
     titleSectionPrice: "Номер с финской парной и джакузи",
-    li: "• цена рассчитана на 5 человек:  <span>1000р</span>/час\n",
+    li: "• цена рассчитана на 5 человек:  <span>1300р</span>/час\n",
 
     slide1: FinSauna1,
     slide2: FinSauna2,
