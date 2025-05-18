@@ -35,6 +35,8 @@ const Price = () => {
         li6Span={item.li6Span}
         li7={item.li7}
         li7Span={item.li7Span}
+        li8={item.li8}
+        li8Span={item.li8Span}
 
         link={item.link}
     />

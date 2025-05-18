@@ -37,6 +37,7 @@ const WaterPool = () => {
       li5={item.li5}
       li6={item.li6}
       li7={item.li7}
+      li8={item.li8}
       src={item.src}
 
 

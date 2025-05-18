@@ -19,6 +19,7 @@ const TemplatePrice = (props) => {
           <p dangerouslySetInnerHTML={{ __html: props.li5 }}></p>
           <p dangerouslySetInnerHTML={{ __html: props.li6 }}></p>
           <p dangerouslySetInnerHTML={{ __html: props.li7 }}></p>
+          <p dangerouslySetInnerHTML={{ __html: props.li8 }}></p>
         </div>
 
         <Link className="price_link" to={props.link}>

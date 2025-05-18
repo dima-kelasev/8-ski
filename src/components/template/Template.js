@@ -85,6 +85,10 @@ const Template = (props) => {
                   className="rightSection_Li"
                   dangerouslySetInnerHTML={{ __html: props.li7 }}
                 ></p>
+                 <p
+                  className="rightSection_Li"
+                  dangerouslySetInnerHTML={{ __html: props.li8 }}
+                ></p>
               </div>
             </div>
 
