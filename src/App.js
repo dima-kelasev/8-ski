@@ -15,6 +15,7 @@ import HamamTwo from "./components/hamam/HamamTwo";
 import Sauna from "./components/sauna/Sauna";
 import SaunaTwo from "./components/sauna/SaunaTwo";
 import Price from "./components/price/price";
+import Hall from './components/hall/Hall'
 
 function App() {
   return (
@@ -53,6 +54,9 @@ function App() {
           </Route>
           <Route path='/hamam2'>
             <HamamTwo  />
+          </Route>
+             <Route path='/hall'>
+            <Hall  />
           </Route>
           <Route path='/sauna'>
             <Sauna  />

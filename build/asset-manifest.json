@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f6ab96f8.chunk.css",
-    "main.js": "/static/js/main.25a37056.chunk.js",
-    "main.js.map": "/static/js/main.25a37056.chunk.js.map",
+    "main.js": "/static/js/main.b694b9b8.chunk.js",
+    "main.js.map": "/static/js/main.b694b9b8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bda2c398.js",
     "runtime-main.js.map": "/static/js/runtime-main.bda2c398.js.map",
     "static/css/2.165ff965.chunk.css": "/static/css/2.165ff965.chunk.css",
@@ -69,6 +69,11 @@
     "static/media/IconPhone.a0a5b3db.svg": "/static/media/IconPhone.a0a5b3db.svg",
     "static/media/emailIcon.842abad5.svg": "/static/media/emailIcon.842abad5.svg",
     "static/media/finSauna.e28722cb.png": "/static/media/finSauna.e28722cb.png",
+    "static/media/hall1.55d95c10.jpeg": "/static/media/hall1.55d95c10.jpeg",
+    "static/media/hall1.7b42028f.jpeg": "/static/media/hall1.7b42028f.jpeg",
+    "static/media/hall2.66c58599.jpeg": "/static/media/hall2.66c58599.jpeg",
+    "static/media/hall3.f4f63060.jpeg": "/static/media/hall3.f4f63060.jpeg",
+    "static/media/hall4.1d30d8ef.jpeg": "/static/media/hall4.1d30d8ef.jpeg",
     "static/media/hamam.793f58be.png": "/static/media/hamam.793f58be.png",
     "static/media/hamam2.a96e58cd.png": "/static/media/hamam2.a96e58cd.png",
     "static/media/iconMobileWhite.6181e7e3.svg": "/static/media/iconMobileWhite.6181e7e3.svg",
@@ -95,6 +100,6 @@
     "static/css/2.165ff965.chunk.css",
     "static/js/2.b20d92aa.chunk.js",
     "static/css/main.f6ab96f8.chunk.css",
-    "static/js/main.25a37056.chunk.js"
+    "static/js/main.b694b9b8.chunk.js"
   ]
 }

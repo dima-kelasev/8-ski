@@ -35,6 +35,9 @@ const DropMenu = () => {
         <li>
           <Link className='Menu_Link' to='/sauna2'>Сауна №2</Link>
         </li>
+         <li>
+          <Link className='Menu_Link' to='/hall'>Банкетный зал</Link>
+        </li>
       </ul>
       <div className='dropMenu_footer'>
         <ul>

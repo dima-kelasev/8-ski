@@ -37,6 +37,10 @@ import SaunaTwo2 from "../images/photoForSliders/Sauna2/DSC06008.jpg";
 import SaunaTwo3 from "../images/photoForSliders/Sauna2/DSC06012.jpg";
 import SaunaTwo4 from "../images/photoForSliders/Sauna2/DSC06023.jpg";
 import SaunaTwo5 from "../images/photoForSliders/Sauna2/DSC06032.jpg";
+import hall1 from "../images/photoForSliders/hall/hall1.jpeg";
+import hall2 from "../images/photoForSliders/hall/hall2.jpeg";
+import hall3 from "../images/photoForSliders/hall/hall3.jpeg";
+import hall4 from "../images/photoForSliders/hall/hall4.jpeg";
 
 export const Data = [
   {
@@ -227,6 +231,36 @@ export const DataHamamTwo = [
     slide4: twoHamam4,
   },
 ];
+
+export const HallData = [
+   {
+    name: "Банкетный зал",
+    titleLi:
+      "Чарующий банкетный зал расположен на отдельной огороженной территории, идеально подходящий для празднования торжеств до 100 человек. Просторный интерьер сочетает стильный дизайн и комфорт, создавая атмосферу уюта. Большие окна наполняют зал естественным светом и открывают  панорамные виды",
+    titleLi2:
+      "Банкетный зал может быть легко адаптирован под любые форматы: свадьбы, юбилеи или корпоративы.",
+    titleLi3:
+      "На прилегающей территории располагается зеленая зона для выездных церемоний и фото-сессий. Удобная парковка добавляют комфорт в организации.",
+    boldclass: "bold_title",
+    BoldTitle: "Профессиональная команда наших партнеров“Family catering” обеспечит высокий уровень сервиса, предлагая разнообразное меню и индивидуальный подход к каждому событию.",
+    titleLi8: " ",
+    titleLi5: " ",
+    titleLi6: " ",
+    titleLi7: "",
+    rightSection: "rightSection",
+
+    classNameSection: "sectionPrice",
+    titleSectionPrice: "Банкетный зал",
+    li: "• Стоимость <span>65000₽</span>",
+    li2: " ",
+
+
+    slide1: hall1,
+    slide2: hall2,
+    slide3: hall3,
+    slide4: hall4,
+  },
+]
 
 export const DataSauna = [
   {
