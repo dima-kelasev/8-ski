@@ -19,6 +19,8 @@ const WaterPool = () => {
       titleLi8={item.titleLi8}
       titleLi9={item.titleLi9}
       titleLi10={item.titleLi10}
+      titleLi11={item.titleLi11}
+
       rightSection={item.rightSection}
 
 

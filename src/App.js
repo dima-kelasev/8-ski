@@ -16,6 +16,7 @@ import Sauna from "./components/sauna/Sauna";
 import SaunaTwo from "./components/sauna/SaunaTwo";
 import Price from "./components/price/price";
 import Hall from './components/hall/Hall'
+import RussianSauna2 from './components/russianSauna/RussianSauna2'
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
           </Route>
           <Route path='/russianSauna'>
             <RussianSauna/>
+          </Route>
+          <Route path='/russianBathhouse'>
+            <RussianSauna2/>
           </Route>
           <Route path='/finnishRoom'>
             <FinnishRoom/>

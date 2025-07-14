@@ -20,6 +20,9 @@ const DropMenu = () => {
         <li>
           <Link className='Menu_Link' to='/russianSauna'>Русская баня на дровах</Link>
         </li>
+         <li>
+          <Link className='Menu_Link' to='/russianBathhouse'>Русская баня</Link>
+        </li>
         <li>
           <Link className='Menu_Link' to='/finnishRoom'>Номер с финской парной и джакузи</Link>
         </li>

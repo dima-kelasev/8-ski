@@ -7,6 +7,7 @@ import Hamam2 from '../images/cards/CardHamam2.jpg';
 import Sauna from '../images/cards/CardSauna.jpg';
 import Sauna2 from '../images/cards/CardSauna2.jpg'
 import Hall from '../images/cards/hall1.jpeg'
+import RusBath2 from '../images/cards/rusbath1.jpeg'
 
 export const CardData = [
   {
@@ -54,5 +55,10 @@ export const CardData = [
     url: Hall,
     title: 'Банкетный зал',
     path: '/hall'
+  },
+   {
+    url: RusBath2,
+    title: 'Русская баня',
+    path: '/russianBathhouse'
   }
 ]

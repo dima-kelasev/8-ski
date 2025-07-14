@@ -1,30 +1,31 @@
 import * as React from "react";
-import {DataRooms} from "../../data/BaseData";
+import {DataRussianSauna2} from "../../data/BaseData";
 import Template from "../template/Template";
 
-const Rooms = () => {
-  const PagePool = DataRooms.map((item) =>
+const RussianSauna2 = () => {
+  const RusSauna2 = DataRussianSauna2.map((item) =>
     <Template
+      id={item.id}
       nameCard={item.name}
-      descCard={item.descCard}
+
       titleLi={item.titleLi}
       titleLi2={item.titleLi2}
       titleLi3={item.titleLi3}
-      titleLi7={item.titleLi7}
-      titleLi5={item.titleLi5}
       titleLi6={item.titleLi6}
-      titleLi10={item.titleLi10}
-      titleLi11={item.titleLi11}
+      titleLi5={item.titleLi5}
       rightSection={item.rightSection}
 
       classNameSection={item.classNameSection}
       titleSectionPrice={item.titleSectionPrice}
+      classOrange={item.classOrange}
+      OrangeText={item.OrangeText}
+      titleList={item.titleList}
+
       li={item.li}
       li2={item.li2}
       li3={item.li3}
       li4={item.li4}
 
-      classFooter={item.classFooter}
       slide1={item.slide1}
       slide2={item.slide2}
       slide3={item.slide3}
@@ -33,12 +34,11 @@ const Rooms = () => {
 
     />
   )
-
   return(
-    <>
-      {PagePool}
-    </>
+      <>
+        {RusSauna2}
+      </>
   )
 }
 
-export default React.memo(Rooms)
+export default React.memo(RussianSauna2)

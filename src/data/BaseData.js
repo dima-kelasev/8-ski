@@ -41,6 +41,10 @@ import hall1 from "../images/photoForSliders/hall/hall1.jpeg";
 import hall2 from "../images/photoForSliders/hall/hall2.jpeg";
 import hall3 from "../images/photoForSliders/hall/hall3.jpeg";
 import hall4 from "../images/photoForSliders/hall/hall4.jpeg";
+import rusBath1 from "../images/photoForSliders/rusSauna2/rusbath1.jpeg";
+import rusBath2 from "../images/photoForSliders/rusSauna2/rusbath2.jpeg";
+import rusBath3 from "../images/photoForSliders/rusSauna2/rusbath3.jpeg";
+import rusBath4 from "../images/photoForSliders/rusSauna2/rusbath4.jpeg";
 
 export const Data = [
   {
@@ -52,12 +56,13 @@ export const Data = [
     titleLi2: "— 2 детских бассейна для маленьких гостей;",
     titleLi3: "— Теплый бассейн размером 4,5*5,5 с гидромассажем;",
     titleLi4: "— Бар с освежающими напитками;",
-    titleLi5: "— Летнее кафе;",
-    titleLi6: "— Летние беседки;",
-    titleLi7: "— Зона барбекю;",
-    titleLi8: "— Комфортабельные домики;",
-    titleLi9: "— Шатры;",
-    titleLi10: "— Пенные вечеринки каждую субботу;",
+    titleLi5: "— Летнее кафе",
+    titleLi6: "— Летние беседки",
+    titleLi7: "— Зона барбекю",
+    titleLi8: "— Комфортабельные домики",
+    titleLi9: "— Шатры",
+    titleLi10: "— Большой бассейн с панорамным стеклом",
+    titleLi11: "— Пенные вечеринки каждую субботу",
     rightSection: "rightSectionWaterpool",
 
     classNameSection: "sectionPriceWaterpool",
@@ -93,14 +98,15 @@ export const DataRooms = [
     titleLi7: "• бесплатный WI-FI",
     titleLi5: "• кондиционер",
     titleLi6: "• телевизор",
-    titleLi10: "• Завтрак включен в стоимость! Бесплатная парковка!",
+    titleLi11: "• Завтрак включен в стоимость! Бесплатная парковка!",
     rightSection: "rightSection",
 
     classNameSection: "sectionPrice",
     titleSectionPrice: "Гостиничные номера",
 
     li: "• <span>3000р</span> /сутки\n",
-    li2: "• <span>4000р</span> /Домик на летней территории\n",
+    li2: "• <span>4000р</span> - Домик на летней территории\n",
+    li3: "• <span>4800р</span> - Апартаменты\n",
   
     classFooter: "rightSection_footer",
     slide1: rooms3,
@@ -140,6 +146,37 @@ export const DataRussianSauna = [
     slide3: RusSauna3,
     slide4: RusSauna4,
     slide5: RusSauna5,
+  },
+];
+
+export const DataRussianSauna2 = [
+  {
+    id: "rusSauna",
+    name: "Русская баня",
+    titleLi:
+      "Территория включает в себя домик с русской баней, комнатами отдыха, верандой, мангальной зоной, открытым бассейном и Сибирским банным чаном.",
+    titleLi2:
+      "Отдых в русской бане — это не просто способ поддержания гигиеничности или расслабления, это целая культура, заслуживающая особого внимания.",
+    titleLi3:
+      "Таким образом, отдых в русской бане — это полноценный ритуал, который настраивает на здоровье, общение и гармонию.",
+    titleLi6:
+      "",
+    titleLi5:
+      "Это неотъемлемая часть русской культуры, уделяющая внимание не только физическому здоровью, но и душевному равновесию, и, без сомнения, стоит попробовать каждому, кто хочет ощутить на себе все прелести этого древнего искусства.",
+    rightSection: "rightSection",
+
+    classNameSection: "sectionPrice",
+    titleSectionPrice: "Русская баня",
+    classOrange: "rightSection_Orange",
+    
+    li: "• Сутки <span>19000р</span>",
+    li2: "• Пятница, суббота, воскресенье <span>23000р</span>",
+    li3: "• До <span>15</span> человек входит в стоимость",
+
+    slide1: rusBath1,
+    slide2: rusBath2,
+    slide3: rusBath3,
+    slide4: rusBath4,
   },
 ];
 

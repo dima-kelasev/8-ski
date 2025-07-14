@@ -38,8 +38,9 @@ const Template = (props) => {
               <p>{props.titleLi8}</p>
               <p>{props.titleLi9}</p>
               <p>
-                <span>{props.titleLi10}</span>
+                {props.titleLi10}
               </p>
+              <p><span>{props.titleLi11}</span></p>
             </div>
             <Link className="linkSection" to="/">
               Вернуться на главную
