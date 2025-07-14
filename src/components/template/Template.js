@@ -113,6 +113,9 @@ const Template = (props) => {
               <div>
                 <img src={props.slide5} alt="" />
               </div>
+               <div>
+                <img src={props.slide6} alt="" />
+              </div>
             </Slider>
             <div></div>
             <Link className="linkSection_mobileView" to="/">

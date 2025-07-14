@@ -48,6 +48,7 @@ const WaterPool = () => {
       slide3={item.slide3}
       slide4={item.slide4}
       slide5={item.slide5}
+      slide6={item.slide6}  
 
     />
 

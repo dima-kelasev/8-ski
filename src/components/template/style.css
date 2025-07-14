@@ -1,398 +1,390 @@
 .wraper {
-    width: 83.34%;
-    margin: 44px auto 0;
+  width: 83.34%;
+  margin: 44px auto 0;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    width: 84.34%;
-    margin: 44px auto 74px;
-    position: relative;
-    z-index: 55;
+  display: flex;
+  justify-content: space-between;
+  width: 84.34%;
+  margin: 44px auto 74px;
+  position: relative;
+  z-index: 55;
 }
 
 .header img {
-    margin-right: 12px;
+  margin-right: 12px;
 }
 
 .wrapSection {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sectionPrice {
-    width: 53.25%;
-    padding: 44px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 25px rgb(0 0 0 / 10%);
-    border-radius: 1px;
-    position: absolute;
-    top: 14%;
-    z-index: 1;
-    right: 16%;
-
+  width: 53.25%;
+  padding: 44px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgb(0 0 0 / 10%);
+  border-radius: 1px;
+  position: absolute;
+  top: 14%;
+  z-index: 1;
+  right: 16%;
 }
 
 .sectionPriceWaterpool {
-    width: 53.25%;
-    padding: 44px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 25px rgb(0 0 0 / 10%);
-    border-radius: 1px;
-    position: absolute;
-    top: -1%;
-    z-index: 1;
-    right: 16%;
+  width: 53.25%;
+  padding: 44px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgb(0 0 0 / 10%);
+  border-radius: 1px;
+  position: absolute;
+  top: -1%;
+  z-index: 1;
+  right: 16%;
 }
 
 .sectionPrice h3 {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.1em;
-    margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  margin-bottom: 24px;
 }
 
 .rightSection_Title {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    margin: 24px 0 6px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 24px 0 6px;
 }
 
 .rightSection_footer {
-    margin-top: 44px;
+  margin-top: 44px;
 }
 
-.rightSection_Li  {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 150%;
+.rightSection_Li {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 .rightSection_Li span {
-    color: #40BAFF;
+  color: #40baff;
 }
 
 .rightSection_img-block {
-    width: 100%;
+  width: 100%;
 }
 
 .rightSection img {
-    position: relative;
-    margin-top: 38%;
-    width: 100%;
+  position: relative;
+  margin-top: 38%;
+  width: 100%;
 }
 .rightSection {
-    /*display: flex;*/
-    align-items: flex-end;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 50%;
+  /*display: flex;*/
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
 }
 
 .rightSectionWaterpool {
-    align-items: flex-end;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 50%;
-    position: relative;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
+  position: relative;
 }
 
 .rightSectionWaterpool img {
-    margin-top: 38%;
-    width: 100%;
+  margin-top: 38%;
+  width: 100%;
 }
 
 .sectionSubtitle {
-    margin: 16px 0 53px;
-    width: 76%;
+  margin: 16px 0 53px;
+  width: 76%;
 }
 
 .rightSection_Orange {
-    color: darkorange;
-    margin-bottom: 16px;
+  color: darkorange;
+  margin-bottom: 16px;
 }
 
-
-
 .sectionSubtitle p {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 22px;
-    color: #1B2232;
-    margin-bottom: 3.82%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1b2232;
+  margin-bottom: 3.82%;
 }
 
 .bold_title {
-    font-weight: 500 !important;
-    font-size: 18px;
-    line-height: 22px;
-    color: #1B2232;
+  font-weight: 500 !important;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1b2232;
 }
 
 .sectionSubtitle span {
-    color: #EE6227;
+  color: #ee6227;
 }
 
 .linkSection {
-    color: #40BAFF;
+  color: #40baff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.leftSection {
+  margin-left: 7.8%;
+  width: 50%;
+}
+
+.leftSection_title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  color: #1b2232;
+}
+
+.leftSection h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 100px;
+  line-height: 94%;
+  color: #1b2232;
+  margin: 16px 0 44px;
+}
+
+.leftSection h5 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  color: #1b2232;
+}
+
+.linkSection_mobileView {
+  display: none;
+}
+
+.mobileMain {
+  display: none;
+}
+
+.mobileMainActive {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .rightSection_Li {
+    font-size: 16px;
+  }
+
+  .rightSection img {
+    margin-top: 50%;
+  }
+
+  .rightSectionWaterpool img {
+    margin-top: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .TemplatePrice_block p {
+    font-size: 14px !important;
+  }
+
+  .templatePrice__name {
+    font-size: 19px !important;
+  }
+
+  .rightSection img {
+    height: 600px;
+  }
+
+  .rightSectionWaterpool img {
+    height: 600px;
+  }
+
+  .sectionPrice h3 {
+    font-size: 19px;
+  }
+
+  .sectionPrice {
+    width: 67.25%;
+    padding: 28px 24px;
+    top: 14%;
+  }
+}
+
+@media (max-width: 768px) {
+  .rightSectionWaterpool img {
+    margin-top: 0;
+  }
+
+  .linkSection {
+    display: none;
+  }
+
+  .linkSection_mobileView {
+    display: block;
+    color: #40baff;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
     letter-spacing: 0.1em;
     text-decoration: none;
-}
+    margin: 10% 0;
+  }
+  .sectionPrice {
+    top: -10%;
+  }
 
-.leftSection {
-    margin-left: 7.8%;
-    width: 50%;
-}
+  .leftSection h2 {
+    margin: 16px 0 !important;
+  }
+  .rightSection {
+    width: 100%;
+    margin-top: 15%;
+  }
 
-.leftSection_title {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.1em;
-    color: #1B2232;
-}
+  .rightSectionWaterpool {
+    width: 100%;
+    position: relative;
+    margin-top: 50%;
+  }
+  .leftSection {
+    width: 95%;
+  }
 
-.leftSection h2 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 100px;
-    line-height: 94%;
-    color: #1B2232;
-    margin: 16px 0 44px;
-}
+  .rightSection img {
+    margin: 0;
+  }
 
-.leftSection h5 {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.1em;
-    color: #1B2232;
-}
-
-.linkSection_mobileView {
-    display: none;
-}
-
-.mobileMain {
-    display: none;
-}
-
-.mobileMainActive {
-    display: none;
-}
-
-@media (max-width: 1280px) {
-    .rightSection_Li {
-        font-size: 16px;
-    }
-
-    .rightSection img {
-        margin-top: 50%;
-    }
-
-    .rightSectionWaterpool img {
-        margin-top: 50%;
-    }
-}
-
-@media (max-width: 1024px) {
-    .TemplatePrice_block p {
-        font-size: 14px !important;
-    }
-
-    .templatePrice__name {
-        font-size: 19px !important;
-    }
-
-    .rightSection img {
-        height: 600px;
-    }
-
-    .rightSectionWaterpool img {
-        height: 600px;
-    }
-
-    .sectionPrice h3 {
-        font-size: 19px;
-    }
-
-    .sectionPrice {
-        width: 67.25%;
-        padding: 28px 24px;
-        top: 14%;
-    }
-}
-
-@media (max-width: 768px) {
-
-    .rightSectionWaterpool img {
-        margin-top: 0;
-    }
-
-    .linkSection {
-        display: none;
-    }
-
-    .linkSection_mobileView {
-        display: block;
-        color: #40BAFF;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 22px;
-        text-align: center;
-        letter-spacing: 0.1em;
-        text-decoration: none;
-        margin: 10% 0;
-    }
-    .sectionPrice {
-        top: -10%;
-    }
-
-    .leftSection h2 {
-        margin: 16px 0 !important;
-    }
-    .rightSection {
-        width: 100%;
-        margin-top: 15%;
-    }
-
-    .rightSectionWaterpool {
-        width: 100%;
-        position: relative;
-        margin-top: 50%;
-    }
-    .leftSection {
-        width: 95%;
-    }
-
-    .rightSection img {
-        margin: 0;
-    }
-
-    .sectionPriceWaterpool {
-            top: -40%;
-    }
+  .sectionPriceWaterpool {
+    top: -40%;
+  }
 }
 
 @media (max-width: 563px) {
-    .slidCardItem {
-        margin-top: 58%;
-    }
+  .slidCardItem {
+    margin-top: 58%;
+  }
 
-    .sectionPrice {
-        top: -40%
-    }
+  .sectionPrice {
+    top: -40%;
+  }
 }
 
 @media (max-width: 481px) {
-    .isNotActive {
-        display: none;
-    }
-    .leftSection h2 {
-        font-size: 64px;
-        margin: 16px 0 !important;
-        width: 100%;
-    }
+  .isNotActive {
+    display: none;
+  }
+  .leftSection h2 {
+    font-size: 64px;
+    margin: 16px 0 !important;
+    width: 100%;
+  }
 
-    .sectionSubtitle {
-        width: 100%;
-        margin-bottom: 60%;
-    }
+  .sectionSubtitle {
+    width: 100%;
+    margin-bottom: 60%;
+  }
 
-    .contact__wrapper {
-        display: block;
-    }
-    .mobileMain {
-        display: block;
-        position: absolute;
-        right: 0;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 22px;
-        letter-spacing: 4px;
-        color: #FFFFFF;
-    }
+  .contact__wrapper {
+    display: block;
+  }
+  .mobileMain {
+    display: block;
+    position: absolute;
+    right: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #ffffff;
+  }
 
-    .sectionPrice {
-        right: 10%;
-        top: -32%;
-    }
+  .sectionPrice {
+    right: 10%;
+    top: -32%;
+  }
 
-    .rightSection img {
-        margin-top: 32%;
-        max-height: 377px;
-    }
+  .rightSection img {
+    margin-top: 32%;
+    max-height: 377px;
+  }
 
-    #waterpool {
-        margin-top: 70%;
-    }
+  #waterpool {
+    margin-top: 70%;
+  }
 
-    .rightSectionWaterpool {
-        margin-top: 115%;
-    }
+  .rightSectionWaterpool {
+    margin-top: 115%;
+  }
 
-    .sectionPriceWaterpool {
-        top: -68%;
-        width: 70.25%;
-        padding: 30px;
-        right: 7%;
-    }
-
-
+  .sectionPriceWaterpool {
+    top: -68%;
+    width: 70.25%;
+    padding: 30px;
+    right: 7%;
+  }
 }
 
 @media (max-width: 375px) {
-    .leftSection h2 {
-        font-size: 62px;
-    }
+  .leftSection h2 {
+    font-size: 62px;
+  }
 
-    .rightSectionWaterpool {
-        margin-top: 148%;
-    }
+  .rightSectionWaterpool {
+    margin-top: 148%;
+  }
 
-    .sectionPriceWaterpool {
-        top: -74%;
-        right: 5%;
-    }
+  .sectionPriceWaterpool {
+    top: -74%;
+    right: 5%;
+  }
 
-    .sectionSubtitle {
-        margin-bottom: 58%;
-    }
+  .sectionSubtitle {
+    margin-bottom: 58%;
+  }
 }
 
 @media (max-width: 320px) {
+  .sectionSubtitle {
+    margin-bottom: 68%;
+  }
 
-    .sectionSubtitle {
-        margin-bottom: 68%;
-    }
+  .sectionPrice {
+    top: -40%;
+    margin-top: 44px;
+  }
+  .mobileMain {
+    font-size: 16px;
+  }
 
-    .sectionPrice {
-        top: -40%;
-        margin-top: 44px;
-    }
-    .mobileMain {
-        font-size: 16px;
-    }
+  .sectionPriceWaterpool {
+    width: 69.25%;
+    padding: 20px;
+    right: 8%;
+    top: -65%;
+  }
 
-    .sectionPriceWaterpool {
-        width: 69.25%;
-        padding: 20px;
-        right: 8%;
-        top: -65%;
-    }
+  #waterpool {
+    margin-top: 100%;
+  }
 
-
-    #waterpool {
-        margin-top: 100%;
-    }
-
-    #rusSauna {
-        margin-top: 67%;
-    }
+  #rusSauna {
+    margin-top: 67%;
+  }
 }

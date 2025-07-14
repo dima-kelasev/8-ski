@@ -3,6 +3,7 @@ import pool2 from "../images/photoForSliders/waterpool/DSC05827.jpg";
 import pool3 from "../images/photoForSliders/waterpool/DSC05800.jpg";
 import pool4 from "../images/photoForSliders/waterpool/DSC05790.jpg";
 import pool5 from "../images/photoForSliders/waterpool/DSC05794.jpg";
+import pool6 from "../images/photoForSliders/waterpool/waterpoolImg.jpeg";
 import rooms1 from "../images/photoForSliders/rooms/DSC05838.jpg";
 import rooms2 from "../images/photoForSliders/rooms/DSC05839.jpg";
 import rooms3 from "../images/photoForSliders/rooms/DSC06083.jpg";
@@ -61,7 +62,7 @@ export const Data = [
     titleLi7: "— Зона барбекю",
     titleLi8: "— Комфортабельные домики",
     titleLi9: "— Шатры",
-    titleLi10: "— Большой бассейн с панорамным стеклом",
+    titleLi10: "— Большой бассейн и маленький с панорамным стеклом",
     titleLi11: "— Пенные вечеринки каждую субботу",
     rightSection: "rightSectionWaterpool",
 
@@ -84,6 +85,7 @@ export const Data = [
     slide3: pool3,
     slide4: pool4,
     slide5: pool5,
+    slide6: pool6,
   },
 ];
 
@@ -120,7 +122,7 @@ export const DataRooms = [
 export const DataRussianSauna = [
   {
     id: "rusSauna",
-    name: "Русская баня на дровах",
+    name: "Русская баня на дровах №1",
     titleLi:
       "Территория включает в себя домик с русской баней, комнатой отдыха, верандой, мангальной зоной, открытым бассейном и Сибирским банным чаном.",
     titleLi2:
@@ -152,7 +154,7 @@ export const DataRussianSauna = [
 export const DataRussianSauna2 = [
   {
     id: "rusSauna",
-    name: "Русская баня",
+    name: "Русская баня на дровах №2",
     titleLi:
       "Территория включает в себя домик с русской баней, комнатами отдыха, верандой, мангальной зоной, открытым бассейном и Сибирским банным чаном.",
     titleLi2:
@@ -168,10 +170,13 @@ export const DataRussianSauna2 = [
     classNameSection: "sectionPrice",
     titleSectionPrice: "Русская баня",
     classOrange: "rightSection_Orange",
+    OrangeText:
+      "При посещении бани более чем на 5 часов, парение в Сибирском чане в подарок!",
     
-    li: "• Сутки <span>19000р</span>",
-    li2: "• Пятница, суббота, воскресенье <span>23000р</span>",
-    li3: "• До <span>15</span> человек входит в стоимость",
+    li: "• Русская баня <span>2900р</span>/час",
+    li2: "• Сутки <span>19000р</span>",
+    li3: "• Пятница, суббота, воскресенье <span>23000р</span>",
+    li4: "• До <span>15</span> человек входит в стоимость",
 
     slide1: rusBath1,
     slide2: rusBath2,

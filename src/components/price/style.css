@@ -95,7 +95,7 @@
 
 #Two {
   grid-area: Two;
-  max-height: 333px;
+  max-height: 402px;
 }
 
 #Three {
@@ -111,7 +111,7 @@
 #Five {
   grid-area: Five;
   position: relative;
-  top: -19%;
+  top: -3%;
 }
 
 #Six {
@@ -121,9 +121,9 @@
 
 #Seven {
   grid-area: Seven;
-  height: 446px;
+  height: 406px;
   position: relative;
-  top: -14%;
+  top: -2%;
 }
 
 #Eight {
@@ -135,12 +135,13 @@
 #Nine {
   grid-area: Nine;
   position: relative;
-  top: -57%;
+  top: -38%;
 }
 #Ten {
   grid-area: Ten;
   position: relative;
-  top: -43%;
+  top: -22%;
+  max-height: 400px;
 }
 
 #price_Link {
@@ -171,11 +172,11 @@
   }
 
   #One {
-    height: 630px;
+    height: 663px;
   }
 
   #Two {
-    height: 280px;
+    height: 345px;
   }
 
   #Four {
@@ -187,7 +188,7 @@
   }
 
   #Seven {
-    height: 413px;
+    height: 368px;
     top: -23%;
   }
 }
@@ -269,12 +270,11 @@
   }
 
   #Two {
-    height: 241px;
     margin-bottom: 10%;
   }
 
   #Seven {
-    height: 303px;
+    height: 318px;
     margin-bottom: 10%;
   }
 }
