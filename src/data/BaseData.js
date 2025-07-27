@@ -63,7 +63,6 @@ export const Data = [
     titleLi8: "— Комфортабельные домики",
     titleLi9: "— Шатры",
     titleLi10: "— Большой бассейн и маленький с панорамным стеклом",
-    titleLi11: "— Пенные вечеринки каждую субботу",
     rightSection: "rightSectionWaterpool",
 
     classNameSection: "sectionPriceWaterpool",
@@ -100,7 +99,6 @@ export const DataRooms = [
     titleLi7: "• бесплатный WI-FI",
     titleLi5: "• кондиционер",
     titleLi6: "• телевизор",
-    titleLi11: "• Завтрак включен в стоимость! Бесплатная парковка!",
     rightSection: "rightSection",
 
     classNameSection: "sectionPrice",

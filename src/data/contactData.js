@@ -24,6 +24,12 @@ import email from '../images/emailIcon.svg'
     name: 'vosmoe_nebo@gmail.com',
     icon: email
   },
+  {
+    name: '*Информация размещенная  на сайте не является публичной офертой',
+  },
+  {
+    name: '*Сайт в стадии разработки, уточняйте информацию у администратора',
+  },
 ]
 
 export default ContactData

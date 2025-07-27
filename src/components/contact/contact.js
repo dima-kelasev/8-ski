@@ -32,7 +32,7 @@ const Template = (props) => {
                 <h3>Дополнительная информация:</h3>
                 <p className='rightSection_Li rightSection_Li-margin'>• Бассейн с <span className='contact__color-blue'>9:00</span> ежедневно</p>
                 <p className='rightSection_Li rightSection_Li-margin'>• Бани и сауны <span className='contact__color-blue'>24/7</span> </p>
-                <p className='rightSection_Li rightSection_Li-margin'>• С <span className='contact__color-blue'>14:00 до 17:00</span> на летней территории работает баня и хамам</p>
+                <p className='rightSection_Li rightSection_Li-margin'>• С <span className='contact__color-blue'>15:00 до 18:00</span> в будни, в выходные с <span className='contact__color-blue'>14:00 до 18:00</span> на летней территории работает баня и хамам</p>
             </div>
             <div>
               <Map/>
