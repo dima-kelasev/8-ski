@@ -73,7 +73,7 @@ export const Data = [
     li2: "• Дети (с 5 до 10 лет): <span>350р</span>/час; <span>900р</span>/день",
     titleList2: "Будние дни",
     li3: "• Взрослые (с 10 лет): <span></span>500р/час; <span>1500р</span>/день",
-    li4: "• Дети (с 5 до 10 лет): <span></span>300р/час; <span>700р</span>/день",
+    li4: "• Дети (с 5 до 10 лет): <span></span>350р/час; <span>700р</span>/день",
     classFooter: "rightSection_footer",
     li5: "• Беседка малая <span>2500р</span>",
     li6: "• Беседка большая <span>3000р</span> ",
